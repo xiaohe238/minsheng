@@ -22,7 +22,7 @@ namespace MinShengQingGou
         {
             InitializeComponent();
         }
-#     region 委托方式
+#     region 委托方式...
         string str = DateTime.Now.ToString("dddd");
         public delegate bool WedDelegate(string str);
         string WedUrl = "https://prefacty.creditcard.cmbc.com.cn/mmc-main-webapp/main/Order.json?actyId=A20170505897&channelType=activityday&giftId=G201705057258&giftNum=1&groupId=&isCaptcha=true&merchantId=0007137&jcaptchaText=";
